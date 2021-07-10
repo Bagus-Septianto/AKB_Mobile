@@ -1,0 +1,21 @@
+
+FS 27 Menghilangkan menu saat stok sudah habis web (chef) (frontend saja) android ==================DONE
+
+MOBILE======================================================
+FS 8 Menambah data Pesanan Mobile (backend sudah jadi) ============DONE
+FS 9 Menampilkan Pesanan Mobile (yang sudah datang dan belum) (SET tvNAMACUST, SET tvMEJACUST) nambahin status,ngerapiin
+FS 11 Menampilkan daftar Menu Mobile==================DONE
+FS 12 Mencari daftar menu Mobile =====================DONE
+
+Scan QR
+"141; Susi; Table 5; 040121 1455"
+printed by dian, berarti susi itu customernya
+id reservasi:   141,
+nama cust:      Susi,
+nama meja:      Table 5,
+date/time:      040121 1455 (4 Jan 2021 14:55:55)
+printed by dian, berarti susi itu customernya
+
+antara menggunakan public variable, atau shared preference
+(kalo pake ini kayanya diclose ttp masih ada) https://stackoverflow.com/questions/3687315/how-to-delete-shared-preferences-data-from-app-in-android
+better using shared preference, kepaksanya pake pub var yang belum tentu bisa (belum dites)
